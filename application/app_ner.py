@@ -62,12 +62,17 @@ if page == "🏠 Accueil":
     **Sources :** données kaggle – entraîné avec spaCy.
 
     **Auteurs :** 
+
       Sèkou DRAME
+
       Safiètou DEME
+
       Baba BA
 
     **Sources :**
+
       Mme Mously DIAW
+
     **ML engineer - Data scientist**
 
 
