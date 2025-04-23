@@ -6,14 +6,14 @@ import os
 import shutil
 import json
 
-#https://drive.google.com/drive/folders/1MbqZc1cRHMXh_QVQ1EHk_gmva4J0jWOp?usp=sharing
+#https://drive.google.com/drive/folders/1Kj0OTd50eyl5dteTRPCeDQi5KXKz9zGx?usp=sharing
 
 #https://drive.google.com/file/d/1IJFnBrHrEOL4oaIaaa7ENgbahTICJuH7/view?usp=sharing
 
 ZIP_NAME = "ner_model.zip"
 EXTRACT_DIR = "ner_model_extracted"
-METRICS_FILE = "metrics.json"
-DRIVE_ZIP_URL = "https://drive.google.com/uc?id=1MbqZc1cRHMXh_QVQ1EHk_gmva4J0jWOp"
+METRICS_FILE = "metrics_spacy.json"
+DRIVE_ZIP_URL = "https://drive.google.com/uc?id=1Kj0OTd50eyl5dteTRPCeDQi5KXKz9zGx"
 DRIVE_METRICS_URL = "https://drive.google.com/uc?id=1IJFnBrHrEOL4oaIaaa7ENgbahTICJuH7"  # Remplace par le bon ID
 
 # 📥 Télécharger et charger le modèle
