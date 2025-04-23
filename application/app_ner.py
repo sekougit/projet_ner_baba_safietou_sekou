@@ -58,7 +58,10 @@ if page == "🏠 Accueil":
     st.title("🔍 Détection d'entités nommées (NER)")
     st.markdown("""
     De nos jours, la génération des textes est monnaie courante via les outils technologiques modernes.Ce modèle de Reconnaissance d'Entités Nommées (NER) a été entraîné pour détecter des entités spécifiques comme le nom d'une personne, un lieu, une organisation,... dans vos textes.
+  """)
     
+st.markdown(
+    """
     <div style="text-align: center;">
         <p><strong>Sources :</strong> données Kaggle – entraîné avec spaCy.</p>
         <p><strong>Auteurs :</strong><br>
@@ -69,9 +72,9 @@ if page == "🏠 Accueil":
            Mme Mously DIAW</p>
         <p><em>ML engineer - Data scientist</em></p>
     </div>
-
-
-    """)
+    """,
+    unsafe_allow_html=True
+)
 
 elif page == "📊 Performances":
     st.title("📈 Performances du modèle")
