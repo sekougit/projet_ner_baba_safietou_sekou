@@ -59,21 +59,16 @@ if page == "🏠 Accueil":
     st.markdown("""
     De nos jours, la génération des textes est monnaie courante via les outils technologiques modernes.Ce modèle de Reconnaissance d'Entités Nommées (NER) a été entraîné pour détecter des entités spécifiques comme le nom d'une personne, un lieu, une organisation,... dans vos textes.
     
-    **Sources :** données kaggle – entraîné avec spaCy.
-
-    **Auteurs :** 
-
-      Sèkou DRAME
-
-      Safiètou DEME
-
-      Baba BA
-
-    **Sources :**
-
-      Mme Mously DIAW
-
-    **ML engineer - Data scientist**
+    <div style="text-align: center;">
+        <p><strong>Sources :</strong> données Kaggle – entraîné avec spaCy.</p>
+        <p><strong>Auteurs :</strong><br>
+           Sèkou DRAME<br>
+           Safiètou DEME<br>
+           Baba BA</p>
+        <p><strong>Sous la supervision de :</strong><br>
+           Mme Mously DIAW</p>
+        <p><em>ML engineer - Data scientist</em></p>
+    </div>
 
 
     """)
