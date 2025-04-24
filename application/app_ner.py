@@ -55,7 +55,7 @@ page = st.sidebar.radio("Aller à :", ["🏠 Accueil", "📊 Performances", "�
 
 # Pages
 if page == "🏠 Accueil":
-    st.title("🔍 Détection d'entités nommées (NER)")
+    st.title("Projet NLP: Détection d'entités nommées (NER)")
     st.markdown("""
     De nos jours, la génération des textes est monnaie courante via les outils technologiques modernes.Ce modèle de Reconnaissance d'Entités Nommées (NER) a été entraîné pour détecter des entités spécifiques comme le nom d'une personne, un lieu, une organisation,... dans vos textes.
     
@@ -75,7 +75,7 @@ if page == "🏠 Accueil":
 
     **ML engineer - Data scientist**
 
-
+    **Année académique: 2024-2025**
     """)
 
 elif page == "📊 Performances":
