@@ -1,4 +1,4 @@
-# projet_ner_baba_safietou_sekou
+# projet named entity of recognition (NER)
 Mise en place d'un modèle pour la reconnaissance d'entité normée: les données sont issues de la plateforme kaggle:https://www.kaggle.com/datasets/debasisdotcom/name-entity-recognition-ner-dataset.
 
 Pour réaliser ce projet, on a principalement utilisé deux bibliothéques que sont : spacy et transformers
