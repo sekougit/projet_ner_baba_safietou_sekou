@@ -9,6 +9,13 @@ Le dossier data contient les données de base au format csv ainsi que les donné
 
 Le fichier code contient un code pour le modéle ner entrainéavec sapcy et un autre code pour le modéle ner entrainé avec transformers
 
+Le dossier config contient le fichier config généré avec spacy et complétépour un bon déroulement de l'entrainement du modéle
+
+Le dossier output doit contenir les fichiers de sortie mais vu la capacité de stockage insuffisante de notre repository, veuillez vous diriger vers ce lien drive pour les consulter: https://drive.google.com/drive/folders/1GbwWLwsVmZB4ZM7ZhDYwfv9jc45W6pb8?usp=sharing
+
+Le modéle utilisé dans notre application se trouve dans ce lien drive ci-dessus
+
+
 application/
 
     |--app-ner.py
@@ -50,4 +57,9 @@ code/
     |--code_final_transformers.ipynb
     
     |--code_final_spacy.ipynb
+
+
+config/
+
+    |--comp_config.cg
 
